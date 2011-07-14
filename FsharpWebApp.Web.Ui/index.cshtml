@@ -1,0 +1,12 @@
+﻿@{
+    Layout = "sitelayout.cshtml";
+    Model.Title = "Nancy and F# - like peanut butter and honey";
+}
+
+@Model.Message
+<br />
+@Model.Time
+<form method="post">
+<input type="text" name="userMessage" id="userMessage" value="" />
+<input type="submit" value="Submit" />
+</form>
