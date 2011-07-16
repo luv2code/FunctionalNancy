@@ -22,12 +22,12 @@
             model?UrlMessage <- if String.IsNullOrWhiteSpace(name) then "" else "this was on the url : " + name 
             model?Time <- DateTime.Now
             self.RenderView("index.cshtml", model)
-
+        
         member self.AsyncTest urlParams = 
             let res = 
                 async {
                     do! Async.Sleep 5000
-                    let! resp = async.Return(Response.FromString("hello"))
+                    let! resp = async.Return(Response.String("hello"))
                     return resp
                 } |> Async.StartAsTask
             res.Wait()

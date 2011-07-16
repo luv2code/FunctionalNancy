@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsharpWebApp.Web.Ui", "FsharpWebApp.Web.Ui\FsharpWebApp.Web.Ui.fsproj", "{0E8EFF83-8D31-4571-B33B-C0D97E21F4F1}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FunctionalNancy.Web.Ui", "FunctionalNancy.Web.Ui\FunctionalNancy.Web.Ui.fsproj", "{0E8EFF83-8D31-4571-B33B-C0D97E21F4F1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExternalReferences", "ExternalReferences", "{A5B4A4C7-E791-44CE-A6DB-D8E0F0641812}"
 	ProjectSection(SolutionItems) = preProject

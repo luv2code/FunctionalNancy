@@ -8,22 +8,22 @@
     <ProjectGuid>{0e8eff83-8d31-4571-b33b-c0d97e21f4f1}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>FsharpWebApp.Web.Ui</RootNamespace>
-    <AssemblyName>FsharpWebApp.Web.Ui</AssemblyName>
+    <AssemblyName>FunctionalNancy.Web.Ui</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
-    <Name>FsharpWebApp.Web.Ui</Name>
+    <Name>FunctionalNancy.Web.Ui</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <Tailcalls>false</Tailcalls>
-    <OutputPath>.</OutputPath>
+    <Optimize>true</Optimize>
+    <Tailcalls>true</Tailcalls>
+    <OutputPath>.\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
     <PlatformTarget>x86</PlatformTarget>
-    <DocumentationFile>bin\Debug\FsharpWebApp.Web.Ui.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\FunctionalNancy.Web.Ui.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <DebugType>pdbonly</DebugType>
@@ -33,7 +33,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
     <PlatformTarget>x86</PlatformTarget>
-    <DocumentationFile>bin\Release\FsharpWebApp.Web.Ui.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\FunctionalNancy.Web.Ui.XML</DocumentationFile>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath32)\FSharp\1.0\Microsoft.FSharp.Targets" Condition="!Exists('$(MSBuildBinPath)\Microsoft.Build.Tasks.v4.0.dll')" />
   <Import Project="$(MSBuildExtensionsPath32)\..\Microsoft F#\v4.0\Microsoft.FSharp.Targets" Condition=" Exists('$(MSBuildBinPath)\Microsoft.Build.Tasks.v4.0.dll')" />
@@ -49,13 +49,13 @@
     <Reference Include="mscorlib" />
     <Reference Include="FSharp.Core" />
     <Reference Include="Nancy">
-      <HintPath>C:\Users\matt.TAYLOR\Projects\FsharpWebApp\ExternalReferences\Nancy.dll</HintPath>
+      <HintPath>..\ExternalReferences\Nancy.dll</HintPath>
     </Reference>
     <Reference Include="Nancy.Hosting.Self">
-      <HintPath>C:\Users\matt.TAYLOR\Projects\FsharpWebApp\ExternalReferences\Nancy.Hosting.Self.dll</HintPath>
+      <HintPath>..\ExternalReferences\Nancy.Hosting.Self.dll</HintPath>
     </Reference>
     <Reference Include="Nancy.ViewEngines.Razor">
-      <HintPath>C:\Users\matt.TAYLOR\Projects\FsharpWebApp\ExternalReferences\Nancy.ViewEngines.Razor.dll</HintPath>
+      <HintPath>..\ExternalReferences\Nancy.ViewEngines.Razor.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
